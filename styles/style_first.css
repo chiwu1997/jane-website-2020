@@ -18,14 +18,17 @@ p {
 html {
     font-size: 20px; /* px means 'pixels': the base font size is now 20 pixels high  */
     font-family: 'Source Serif Pro', serif;
-    background-color:lightblue;
+    background-color:burlywood;
 }
 
 body {
-    background-image: url("../images/first2.jpg");
-    background-size: cover;
-    width: 560px;
+    background-image: url("../images/first.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* width: 560px; */
     margin: 0 auto;
+    background-size: cover;
     /* background-color: #F0F45E; */
     padding: 0 150px 20px 150px;
     border: 3px solid black;
@@ -40,20 +43,21 @@ body {
     list-style: none;
     /* border: 1px solid black; */
 
-    width: 580px;
+    width: 1000px;
     margin: 0;
-    padding: 0;
+    padding: 1000;
     overflow: hidden; /* 超過範圍隱藏 */
     white-space: nowrap; /* 不斷行 */
+    text-align-last: center;
 }
 
 #myDiv ul li{display: inline; /* 水平排列 */}
 #myDiv ul li a {
     display: inline-block;  /* 水平內顯示為區塊 */
     /* border: 2px solid lightcoral; */
-    padding:0 20px;
+    padding:0 40px;
     color:brown;
     text-decoration:none;
-    font-size:15px;
+    font-size:22px;
     line-height:21px;
 }
