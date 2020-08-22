@@ -55,7 +55,7 @@ body {
 #myDiv ul li a {
     display: inline-block;  /* 水平內顯示為區塊 */
     /* border: 2px solid lightcoral; */
-    padding:0 40px;
+    padding:0 42px;
     color:brown;
     text-decoration:none;
     font-size:22px;
